@@ -1,0 +1,4 @@
+.demo1{background-image:url('https://image.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-260nw-407021107.jpg');
+    background-repeat: no-repeat ;background-size: cover;height:100px;width: 400px;}
+ .demo2{background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMdJRtRiTzmZBET0enRAICDdhYVpFXnobIbQ&usqp=CAU') ;
+    background-repeat: no-repeat;background-size: cover;height:100px;width:500px;color: aquamarine;}
