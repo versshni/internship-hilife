@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<style>
+body {
+  margin:0;
+  font-family:comic;
+  overflow: auto;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 275px;
+  background-color:black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  color:aliceblue ;
+}
+
+.sidebar a {
+  display: block;
+  color:aliceblue;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color:crimson;
+  color: white;
+}
+/*.demo1{
+    justify-content:right;
+    padding: 200px;
+    text-align: center;
+    margin-left:  100px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    height:400px;
+}*/
+#about{
+  justify-content:right;
+    padding:200px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+@media screen and (max-width:750px) {
+  .sidebar {
+    width:100%;
+    height: auto;
+    position:relative;
+  }
+  .sidebar a {float:center;}
+  .demo1{font-size:18px}
+}
+
+@media screen and (min-width:400px) and (max-width:500px){
+  .sidebar a {
+    text-align:center;
+    float:none;
+  }
+  .demo{float:right}
+  .demo1{
+    justify-content:left;
+    margin-left:0px;
+    column-count:1px;
+    width:80px;
+    margin:auto
+  }
+  #about{
+    
+    justify-content:left
+  
+  }
+  
+}
+
+</style>
+</head>
+<body>
+<div class="sidebar">
+    <div class="demo mt-5 p-2">
+        <img class="rounded-circle" src="./image/pro.jpg" alt="" width="150px">
+    </div>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#resume">Resume</a>
+  <a href="#tasks">Tasks</a>
+  <a href="#about">Blog</a>
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <header id="home">
+          <div class="demo1">
+            <h1 class="h1">i am versshni</h1>
+            <p>i am a frontend web developer and i can also make a website with more and more user interaction<p>
+        </div>
+        </header>
+      </div>
+    </div>
+  </div>
+
+<section id="about"><div class="container" >
+  <h1 class="h1" style="justify-content: center;color:crimson">About Me</h1>
+  <div class="row">
+    <div class="col-4">
+  
+    </div>
+    <div class="col-4">
+      Name:v.versshni
+    </div>
+  </div>
+    
+</div></section>
+</body>
+</html>
